@@ -110,5 +110,19 @@ Response:
   }
 }
 ```
+5. Running the Project Locally
+
+Install dependencies:
+```pip install -r requirements.txt```
+
+Start Ollama:
+```ollama serve```
+
+Start MCP Server:
+```uvicorn mcp_server.server:app --port 8001```
+
+Start API Server:
+```uvicorn api.main:app --port 8000```
+
 
 
