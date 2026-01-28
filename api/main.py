@@ -24,6 +24,11 @@ def analyze(req: dict):
     }
 
     result = graph.invoke(state)
+    return {
+    "report_id": "report_001",
+    "report": result
+    }
+
 
     # 🔴 RETURN REPORT ONLY (SECTION 5 EXACT)
     return result

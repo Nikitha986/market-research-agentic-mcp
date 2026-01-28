@@ -2,5 +2,9 @@
 [Extractor] calling MCP tool: fetch_url
 [Extractor] calling MCP tool: clean_extract
 [Extractor] calling MCP tool: extract_entities
+[Extractor] calling MCP tool: fetch_url
+[Extractor] calling MCP tool: clean_extract
+[Extractor] calling MCP tool: extract_entities
+[Impact] calling MCP tool: impact_score
 [Impact] calling MCP tool: impact_score
 [Writer] calling MCP tool: generate_market_report
