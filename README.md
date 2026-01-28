@@ -4,7 +4,7 @@
 ## 1. Overview
 
 This project implements a Backend Framework for automated market research using an Agentic AI architecture.  
-Multiple AI agents collaborate in a linear pipeline to generate a structured Market Intelligence Report for a given industry (e.g., NBFC, Insurance, SaaS).
+Multiple AI agents collaborate in a linear pipeline to generate a structured Market Intelligence Report for industry 
 
 A key requirement of this assignment is the strict decoupling of AI logic from execution tools using the Model Context Protocol (MCP).  
 Agents do not execute Python functions directly and interact with the external world only through MCP tools.
